@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0-*",
+  "testRunner" : "xunit", 
+
+  "dependencies": {
+    "fuzzymatchasaservice.core": "1.0.0-*",
+    "NETStandard.Library": "1.5.0-rc2-24027",
+    "xunit": "2.1.0"
+  },
+
+  "frameworks": {
+    "netstandard1.5": {
+      "imports": [ "dnxcore50", "portable-net45+win8" ]
+    }
+  }
+}
