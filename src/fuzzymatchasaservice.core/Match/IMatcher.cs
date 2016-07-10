@@ -5,7 +5,12 @@ using System.Threading.Tasks;
 
 namespace fuzzymatchasaservice.core.Match
 {
-    public interface IMatcher<T>
+
+    public interface IMatcher
+    {
+    }
+
+    public interface IMatcher<T> : IMatcher
     {
         IDictionary<string, MatchRule> Rules { get; set; }
         T Target { get; set; }
